@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C2684324A4EC70000C1148 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2684224A4EC70000C1148 /* AppDelegate.m */; };
+		07C2684624A4EC70000C1148 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2684524A4EC70000C1148 /* SceneDelegate.m */; };
+		07C2684924A4EC70000C1148 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2684824A4EC70000C1148 /* ViewController.m */; };
+		07C2684C24A4EC70000C1148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C2684A24A4EC70000C1148 /* Main.storyboard */; };
+		07C2684E24A4EC73000C1148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C2684D24A4EC73000C1148 /* Assets.xcassets */; };
+		07C2685124A4EC73000C1148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C2684F24A4EC73000C1148 /* LaunchScreen.storyboard */; };
+		07C2685424A4EC73000C1148 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2685324A4EC73000C1148 /* main.m */; };
+		07C2685E24A4EC73000C1148 /* KRNetworkManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2685D24A4EC73000C1148 /* KRNetworkManagerTests.m */; };
+		07C2686924A4EC73000C1148 /* KRNetworkManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2686824A4EC73000C1148 /* KRNetworkManagerUITests.m */; };
+		07C2687C24A4FD10000C1148 /* KRRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2687924A4FD0F000C1148 /* KRRequestManager.m */; };
+		07C2688524A4FD2D000C1148 /* NSString+Shove.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2687E24A4FD2D000C1148 /* NSString+Shove.m */; };
+		07C2688624A4FD2D000C1148 /* NSString+encryptDES.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2687F24A4FD2D000C1148 /* NSString+encryptDES.m */; };
+		07C2688724A4FD2D000C1148 /* ConverUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2688124A4FD2D000C1148 /* ConverUtil.m */; };
+		07C2688824A4FD2D000C1148 /* ShoveGeneralRestGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2688324A4FD2D000C1148 /* ShoveGeneralRestGateway.m */; };
+		91AFAA17D4905965A4E45F32 /* libPods-KRNetworkManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C6FEAFCEBF377D3C43AB353 /* libPods-KRNetworkManager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07C2685A24A4EC73000C1148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07C2683624A4EC70000C1148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C2683D24A4EC70000C1148;
+			remoteInfo = KRNetworkManager;
+		};
+		07C2686524A4EC73000C1148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07C2683624A4EC70000C1148 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07C2683D24A4EC70000C1148;
+			remoteInfo = KRNetworkManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C2683E24A4EC70000C1148 /* KRNetworkManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRNetworkManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C2684124A4EC70000C1148 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07C2684224A4EC70000C1148 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07C2684424A4EC70000C1148 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		07C2684524A4EC70000C1148 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		07C2684724A4EC70000C1148 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07C2684824A4EC70000C1148 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07C2684B24A4EC70000C1148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07C2684D24A4EC73000C1148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07C2685024A4EC73000C1148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07C2685224A4EC73000C1148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C2685324A4EC73000C1148 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07C2685924A4EC73000C1148 /* KRNetworkManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRNetworkManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C2685D24A4EC73000C1148 /* KRNetworkManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRNetworkManagerTests.m; sourceTree = "<group>"; };
+		07C2685F24A4EC73000C1148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C2686424A4EC73000C1148 /* KRNetworkManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRNetworkManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C2686824A4EC73000C1148 /* KRNetworkManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRNetworkManagerUITests.m; sourceTree = "<group>"; };
+		07C2686A24A4EC73000C1148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C2687924A4FD0F000C1148 /* KRRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRRequestManager.m; sourceTree = "<group>"; };
+		07C2687A24A4FD0F000C1148 /* KRRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRRequestManager.h; sourceTree = "<group>"; };
+		07C2687B24A4FD10000C1148 /* KRNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRNetworkConfig.h; sourceTree = "<group>"; };
+		07C2687D24A4FD2D000C1148 /* ShoveGeneralRestGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoveGeneralRestGateway.h; sourceTree = "<group>"; };
+		07C2687E24A4FD2D000C1148 /* NSString+Shove.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Shove.m"; sourceTree = "<group>"; };
+		07C2687F24A4FD2D000C1148 /* NSString+encryptDES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+encryptDES.m"; sourceTree = "<group>"; };
+		07C2688024A4FD2D000C1148 /* ConverUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverUtil.h; sourceTree = "<group>"; };
+		07C2688124A4FD2D000C1148 /* ConverUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverUtil.m; sourceTree = "<group>"; };
+		07C2688224A4FD2D000C1148 /* NSString+encryptDES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+encryptDES.h"; sourceTree = "<group>"; };
+		07C2688324A4FD2D000C1148 /* ShoveGeneralRestGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoveGeneralRestGateway.m; sourceTree = "<group>"; };
+		07C2688424A4FD2D000C1148 /* NSString+Shove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Shove.h"; sourceTree = "<group>"; };
+		0C6FEAFCEBF377D3C43AB353 /* libPods-KRNetworkManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KRNetworkManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14923DD2D72C778A5F533A37 /* Pods-KRNetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRNetworkManager.release.xcconfig"; path = "Target Support Files/Pods-KRNetworkManager/Pods-KRNetworkManager.release.xcconfig"; sourceTree = "<group>"; };
+		90E8FF8FC9C60C18DF644BA7 /* Pods-KRNetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRNetworkManager.debug.xcconfig"; path = "Target Support Files/Pods-KRNetworkManager/Pods-KRNetworkManager.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07C2683B24A4EC70000C1148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AFAA17D4905965A4E45F32 /* libPods-KRNetworkManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C2685624A4EC73000C1148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C2686124A4EC73000C1148 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C2683524A4EC70000C1148 = {
+			isa = PBXGroup;
+			children = (
+				07C2684024A4EC70000C1148 /* KRNetworkManager */,
+				07C2685C24A4EC73000C1148 /* KRNetworkManagerTests */,
+				07C2686724A4EC73000C1148 /* KRNetworkManagerUITests */,
+				07C2683F24A4EC70000C1148 /* Products */,
+				1EC8776E26560D06FAD0E7F1 /* Pods */,
+				E97FF60D4C6B6BF10558ACF5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07C2683F24A4EC70000C1148 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07C2683E24A4EC70000C1148 /* KRNetworkManager.app */,
+				07C2685924A4EC73000C1148 /* KRNetworkManagerTests.xctest */,
+				07C2686424A4EC73000C1148 /* KRNetworkManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07C2684024A4EC70000C1148 /* KRNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				07C2687624A4FC74000C1148 /* Source */,
+				07C2684124A4EC70000C1148 /* AppDelegate.h */,
+				07C2684224A4EC70000C1148 /* AppDelegate.m */,
+				07C2684424A4EC70000C1148 /* SceneDelegate.h */,
+				07C2684524A4EC70000C1148 /* SceneDelegate.m */,
+				07C2684724A4EC70000C1148 /* ViewController.h */,
+				07C2684824A4EC70000C1148 /* ViewController.m */,
+				07C2684A24A4EC70000C1148 /* Main.storyboard */,
+				07C2684D24A4EC73000C1148 /* Assets.xcassets */,
+				07C2684F24A4EC73000C1148 /* LaunchScreen.storyboard */,
+				07C2685224A4EC73000C1148 /* Info.plist */,
+				07C2685324A4EC73000C1148 /* main.m */,
+			);
+			path = KRNetworkManager;
+			sourceTree = "<group>";
+		};
+		07C2685C24A4EC73000C1148 /* KRNetworkManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				07C2685D24A4EC73000C1148 /* KRNetworkManagerTests.m */,
+				07C2685F24A4EC73000C1148 /* Info.plist */,
+			);
+			path = KRNetworkManagerTests;
+			sourceTree = "<group>";
+		};
+		07C2686724A4EC73000C1148 /* KRNetworkManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07C2686824A4EC73000C1148 /* KRNetworkManagerUITests.m */,
+				07C2686A24A4EC73000C1148 /* Info.plist */,
+			);
+			path = KRNetworkManagerUITests;
+			sourceTree = "<group>";
+		};
+		07C2687624A4FC74000C1148 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				07C2687724A4FCAD000C1148 /* Network */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		07C2687724A4FCAD000C1148 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				07C2687B24A4FD10000C1148 /* KRNetworkConfig.h */,
+				07C2687A24A4FD0F000C1148 /* KRRequestManager.h */,
+				07C2687924A4FD0F000C1148 /* KRRequestManager.m */,
+				07C2687824A4FCC9000C1148 /* Shove.OC */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		07C2687824A4FCC9000C1148 /* Shove.OC */ = {
+			isa = PBXGroup;
+			children = (
+				07C2688024A4FD2D000C1148 /* ConverUtil.h */,
+				07C2688124A4FD2D000C1148 /* ConverUtil.m */,
+				07C2688224A4FD2D000C1148 /* NSString+encryptDES.h */,
+				07C2687F24A4FD2D000C1148 /* NSString+encryptDES.m */,
+				07C2688424A4FD2D000C1148 /* NSString+Shove.h */,
+				07C2687E24A4FD2D000C1148 /* NSString+Shove.m */,
+				07C2687D24A4FD2D000C1148 /* ShoveGeneralRestGateway.h */,
+				07C2688324A4FD2D000C1148 /* ShoveGeneralRestGateway.m */,
+			);
+			path = Shove.OC;
+			sourceTree = "<group>";
+		};
+		1EC8776E26560D06FAD0E7F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90E8FF8FC9C60C18DF644BA7 /* Pods-KRNetworkManager.debug.xcconfig */,
+				14923DD2D72C778A5F533A37 /* Pods-KRNetworkManager.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E97FF60D4C6B6BF10558ACF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C6FEAFCEBF377D3C43AB353 /* libPods-KRNetworkManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07C2683D24A4EC70000C1148 /* KRNetworkManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C2686D24A4EC73000C1148 /* Build configuration list for PBXNativeTarget "KRNetworkManager" */;
+			buildPhases = (
+				45C37A2F1941D10243EABF40 /* [CP] Check Pods Manifest.lock */,
+				07C2683A24A4EC70000C1148 /* Sources */,
+				07C2683B24A4EC70000C1148 /* Frameworks */,
+				07C2683C24A4EC70000C1148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRNetworkManager;
+			productName = KRNetworkManager;
+			productReference = 07C2683E24A4EC70000C1148 /* KRNetworkManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07C2685824A4EC73000C1148 /* KRNetworkManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C2687024A4EC73000C1148 /* Build configuration list for PBXNativeTarget "KRNetworkManagerTests" */;
+			buildPhases = (
+				07C2685524A4EC73000C1148 /* Sources */,
+				07C2685624A4EC73000C1148 /* Frameworks */,
+				07C2685724A4EC73000C1148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C2685B24A4EC73000C1148 /* PBXTargetDependency */,
+			);
+			name = KRNetworkManagerTests;
+			productName = KRNetworkManagerTests;
+			productReference = 07C2685924A4EC73000C1148 /* KRNetworkManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07C2686324A4EC73000C1148 /* KRNetworkManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C2687324A4EC73000C1148 /* Build configuration list for PBXNativeTarget "KRNetworkManagerUITests" */;
+			buildPhases = (
+				07C2686024A4EC73000C1148 /* Sources */,
+				07C2686124A4EC73000C1148 /* Frameworks */,
+				07C2686224A4EC73000C1148 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07C2686624A4EC73000C1148 /* PBXTargetDependency */,
+			);
+			name = KRNetworkManagerUITests;
+			productName = KRNetworkManagerUITests;
+			productReference = 07C2686424A4EC73000C1148 /* KRNetworkManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07C2683624A4EC70000C1148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "戴培琼";
+				TargetAttributes = {
+					07C2683D24A4EC70000C1148 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					07C2685824A4EC73000C1148 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 07C2683D24A4EC70000C1148;
+					};
+					07C2686324A4EC73000C1148 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 07C2683D24A4EC70000C1148;
+					};
+				};
+			};
+			buildConfigurationList = 07C2683924A4EC70000C1148 /* Build configuration list for PBXProject "KRNetworkManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07C2683524A4EC70000C1148;
+			productRefGroup = 07C2683F24A4EC70000C1148 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07C2683D24A4EC70000C1148 /* KRNetworkManager */,
+				07C2685824A4EC73000C1148 /* KRNetworkManagerTests */,
+				07C2686324A4EC73000C1148 /* KRNetworkManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07C2683C24A4EC70000C1148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C2685124A4EC73000C1148 /* LaunchScreen.storyboard in Resources */,
+				07C2684E24A4EC73000C1148 /* Assets.xcassets in Resources */,
+				07C2684C24A4EC70000C1148 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C2685724A4EC73000C1148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C2686224A4EC73000C1148 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45C37A2F1941D10243EABF40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KRNetworkManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07C2683A24A4EC70000C1148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C2687C24A4FD10000C1148 /* KRRequestManager.m in Sources */,
+				07C2688524A4FD2D000C1148 /* NSString+Shove.m in Sources */,
+				07C2688824A4FD2D000C1148 /* ShoveGeneralRestGateway.m in Sources */,
+				07C2688724A4FD2D000C1148 /* ConverUtil.m in Sources */,
+				07C2684924A4EC70000C1148 /* ViewController.m in Sources */,
+				07C2684324A4EC70000C1148 /* AppDelegate.m in Sources */,
+				07C2685424A4EC73000C1148 /* main.m in Sources */,
+				07C2688624A4FD2D000C1148 /* NSString+encryptDES.m in Sources */,
+				07C2684624A4EC70000C1148 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C2685524A4EC73000C1148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C2685E24A4EC73000C1148 /* KRNetworkManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07C2686024A4EC73000C1148 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C2686924A4EC73000C1148 /* KRNetworkManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07C2685B24A4EC73000C1148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C2683D24A4EC70000C1148 /* KRNetworkManager */;
+			targetProxy = 07C2685A24A4EC73000C1148 /* PBXContainerItemProxy */;
+		};
+		07C2686624A4EC73000C1148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07C2683D24A4EC70000C1148 /* KRNetworkManager */;
+			targetProxy = 07C2686524A4EC73000C1148 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07C2684A24A4EC70000C1148 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C2684B24A4EC70000C1148 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07C2684F24A4EC73000C1148 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C2685024A4EC73000C1148 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07C2686B24A4EC73000C1148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07C2686C24A4EC73000C1148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07C2686E24A4EC73000C1148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E8FF8FC9C60C18DF644BA7 /* Pods-KRNetworkManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRNetworkManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRNetworkManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07C2686F24A4EC73000C1148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14923DD2D72C778A5F533A37 /* Pods-KRNetworkManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRNetworkManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRNetworkManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07C2687124A4EC73000C1148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRNetworkManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRNetworkManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRNetworkManager.app/KRNetworkManager";
+			};
+			name = Debug;
+		};
+		07C2687224A4EC73000C1148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRNetworkManagerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRNetworkManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KRNetworkManager.app/KRNetworkManager";
+			};
+			name = Release;
+		};
+		07C2687424A4EC73000C1148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRNetworkManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRNetworkManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRNetworkManager;
+			};
+			name = Debug;
+		};
+		07C2687524A4EC73000C1148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KRNetworkManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lai.yun.KRNetworkManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KRNetworkManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C2683924A4EC70000C1148 /* Build configuration list for PBXProject "KRNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C2686B24A4EC73000C1148 /* Debug */,
+				07C2686C24A4EC73000C1148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C2686D24A4EC73000C1148 /* Build configuration list for PBXNativeTarget "KRNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C2686E24A4EC73000C1148 /* Debug */,
+				07C2686F24A4EC73000C1148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C2687024A4EC73000C1148 /* Build configuration list for PBXNativeTarget "KRNetworkManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C2687124A4EC73000C1148 /* Debug */,
+				07C2687224A4EC73000C1148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07C2687324A4EC73000C1148 /* Build configuration list for PBXNativeTarget "KRNetworkManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07C2687424A4EC73000C1148 /* Debug */,
+				07C2687524A4EC73000C1148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07C2683624A4EC70000C1148 /* Project object */;
+}
