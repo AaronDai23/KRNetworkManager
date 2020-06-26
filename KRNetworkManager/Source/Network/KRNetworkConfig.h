@@ -7,7 +7,6 @@
 //
 #ifndef KRNetworkConfig_h
 #define KRNetworkConfig_h
-#import "NSString+encryptDES.h"
 // app端传输 key
 #define MD5key  @"D0NB8ietxpCkdRCy"
 // 加密 key
