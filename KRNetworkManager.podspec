@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "KRNetworkManager"
-  spec.version      = "1.0"
+  spec.version      = "1.0.3"
   spec.summary      = "基于AFN封装的网络框架"
 
   # This description is used to generate tags and improve search results.
@@ -91,10 +91,23 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "KRNetworkManager/Source/**/*.{h,m}"
+ # spec.source_files  = "KRNetworkManager/Source/**/*.{h,m}"
+  spec.subspec 'Network' do |ss|
+  ss.source_files = "KRNetworkManager/Source/Network/**/*"
+  ss.public_header_files = "KRNetworkManager/Source/Network/*.h"
+  ss.dependency 'AFNetworking', '~> 3.2.1'
+  ss.dependency 'KRNetworkManager/Shove.OC'
+  end
+  
+ # spec.source_files  = "KRNetworkManager/Source/**/*.{h,m}"
+  spec.subspec 'Shove.OC' do |sh|
+  sh.source_files = "KRNetworkManager/Source/Shove.OC/**/*"
+  sh.public_header_files = "KRNetworkManager/Source/Shove.OC/*.h"
+ 
+  end
  # spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "KRNetworkManager/Source/**/*.h"
+ # spec.public_header_files = "KRNetworkManager/Source/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -133,6 +146,6 @@ Pod::Spec.new do |spec|
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "AFNetworking", "~> 3.2.1"
+ # spec.dependency "AFNetworking", "~> 3.2.1"
 
 end
